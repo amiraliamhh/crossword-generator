@@ -1,6 +1,6 @@
 {
   "name": "crossword-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TypeScript library for generating crossword puzzles",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -5,19 +5,23 @@
  *
  * @example
  * ```typescript
- * import { generateCrossword } from 'crossword-library';
+ * import { generateCrossword } from 'crossword-generator';
  *
- * const words = ['HELLO', 'WORLD', 'CROSSWORD', 'PUZZLE'];
- * const result = generateCrossword(words, { wordCount: 4 });
+ * const words = ['ARTIST', 'OCTAGON', 'ANGLE', 'DESERT', 'FORCE', 'RENDER', 'PUZZLE'];
+ * const result = generateCrossword(words, { wordCount: 7 });
  *
  * console.log(result.grid);
  * // [
- * //   ['H', 'E', 'L', 'L', 'O'],
- * //   ['W', null, null, null, null],
- * //   ['O', null, null, null, null],
- * //   ['R', null, null, null, null],
- * //   ['L', null, null, null, null],
- * //   ['D', null, null, null, null]
+ * //   [null, null, null, null, null, 'D'],
+ * //   ['P', 'U', 'Z', 'Z', 'L', 'E'],
+ * //   [null, null, null, null, null, 'S'],
+ * //   [null, 'F', 'O', 'R', 'C', 'E'],
+ * //   [null, null, 'C', null, null, 'R'],
+ * //   ['A', 'R', 'T', 'I', 'S', 'T'],
+ * //   [null, null, 'A', null, null, null],
+ * //   ['A', 'N', 'G', 'L', 'E', null],
+ * //   [null, null, 'O', null, null, null],
+ * //   ['R', 'E', 'N', 'D', 'E', 'R']
  * // ]
  * ```
  */
